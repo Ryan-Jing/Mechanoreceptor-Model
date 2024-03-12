@@ -32,7 +32,7 @@ experienced by the mechanoreceptors, the faster the fire rate of action potentia
 encoding the surface texture information to the brain.
 
 ### Output
-![alt text](Output_Data/Static_Model_Output.pngimage-2.png)
+![alt text](Output_Data/Static_Model_Output.png)
 
 ## 3. Scanning Model
 This model again assumes that surface texture height can be interpreted as current, but mimics a
