@@ -9,10 +9,10 @@ This cell in **receptor_response_test.ipynb** takes in a single current input ov
 outputs the response from the mechanoreceptor model
 
 ### Input
-![alt text](image.png)
+![alt text](Output_Data/Basic_Model_Current_Input.png)
 
 ### Output
-![alt text](image-1.png)
+![alt text](Output_Data/Basic_Model_Output.png)
 
 ## 2. Static Model
 This uses the functionality form the Basic Model and applies it to an array of currents.
@@ -32,7 +32,7 @@ experienced by the mechanoreceptors, the faster the fire rate of action potentia
 encoding the surface texture information to the brain.
 
 ### Output
-![alt text](image-2.png)
+![alt text](Output_Data/Static_Model_Output.pngimage-2.png)
 
 ## 3. Scanning Model
 This model again assumes that surface texture height can be interpreted as current, but mimics a
@@ -44,7 +44,7 @@ the topograhy array. The 100 outputted mechanoreceptor response is displayed in 
 heat map and 3D plot.
 
 ### Heatmap Output
-![alt text](image-3.png)
+![alt text](Output_Data/Scanning_Model_Heatmap.png)
 
 ### 3D Plot Output
-![alt text](image-4.png)
+![alt text](Output_Data/Scanning_Model_3D_Plot.png)
