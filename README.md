@@ -23,10 +23,25 @@ greater resolution, and is used as input into the basic model. This is repeated 
 the topograhy array. The 100 outputted mechanoreceptor response is displayed in the graphs both as a
 heat map and 3D plot.
 
-### Heatmap Output
+### 3D Text Example
+#### Heatmap Output
+![alt text](Output_Data/COW_Scanning_Model_Heatmap.png.png)
+
+#### 3D Plot Output
+![alt text](Output_Data/COW_Scanning_Model_3D_Plot.png)
+
+### Surface Texture Example
+#### Heatmap Output
+![alt text](Output_Data/SurfaceTexture_Scanning_Model_Heatmap.png)
+
+#### 3D Plot Output
+![alt text](Output_Data/SurfaceTexture_Scanning_Model_3D_Plot.png)
+
+### Keyboard Example
+#### Heatmap Output
 ![alt text](Output_Data/Scanning_Model_Heatmap.png)
 
-### 3D Plot Output
+#### 3D Plot Output
 ![alt text](Output_Data/Scanning_Model_3D_Plot.png)
 
 ## 3. Static Model
