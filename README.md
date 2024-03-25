@@ -24,6 +24,9 @@ the topograhy array. The 100 outputted mechanoreceptor response is displayed in 
 heat map and 3D plot.
 
 ### 3D Text Example
+#### Input
+![alt text](Topography_Data/COW_image.png)
+
 #### Heatmap Output
 ![alt text](Output_Data/COW_Scanning_Model_Heatmap.png.png)
 
@@ -31,6 +34,9 @@ heat map and 3D plot.
 ![alt text](Output_Data/COW_Scanning_Model_3D_Plot.png)
 
 ### Surface Texture Example
+#### Input
+![alt text](Topography_Data/surface_texture_image.png.png)
+
 #### Heatmap Output
 ![alt text](Output_Data/SurfaceTexture_Scanning_Model_Heatmap.png)
 
@@ -38,6 +44,9 @@ heat map and 3D plot.
 ![alt text](Output_Data/SurfaceTexture_Scanning_Model_3D_Plot.png)
 
 ### Keyboard Example
+#### Input
+![alt text](Topography_Data/keyboard_image.png)
+
 #### Heatmap Output
 ![alt text](Output_Data/Scanning_Model_Heatmap.png)
 
