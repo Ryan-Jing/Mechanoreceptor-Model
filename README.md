@@ -28,14 +28,15 @@ heat map and 3D plot.
 ![alt text](Topography_Data/COW_image.png)
 
 #### Heatmap Output
-![alt text](Output_Data/COW_Scanning_Model_Heatmap.png.png)
+![alt text](Output_Data/COW_Scanning_Model_Heatmap.png)
 
 #### 3D Plot Output
 ![alt text](Output_Data/COW_Scanning_Model_3D_Plot.png)
 
 ### Surface Texture Example
 #### Input
-![alt text](Topography_Data/surface_texture_image.png.png)
+This input texture was translated to a 2D array
+![alt text](Topography_Data/surface_texture_image.png)
 
 #### Heatmap Output
 ![alt text](Output_Data/SurfaceTexture_Scanning_Model_Heatmap.png)
