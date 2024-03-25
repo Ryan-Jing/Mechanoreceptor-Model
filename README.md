@@ -14,7 +14,22 @@ outputs the response from the mechanoreceptor model
 ### Output
 ![alt text](Output_Data/Basic_Model_Output.png)
 
-## 2. Static Model
+## 2. Scanning Model
+This model again assumes that surface texture height can be interpreted as current, but mimics a
+horizental strip of sensors scanning across the topography surface.
+
+The values of heigh in an entire row (100 indices) is scaled to 100000 indices in a newer array for
+greater resolution, and is used as input into the basic model. This is repeated over the 100 rows in
+the topograhy array. The 100 outputted mechanoreceptor response is displayed in the graphs both as a
+heat map and 3D plot.
+
+### Heatmap Output
+![alt text](Output_Data/Scanning_Model_Heatmap.png)
+
+### 3D Plot Output
+![alt text](Output_Data/Scanning_Model_3D_Plot.png)
+
+## 3. Static Model
 This uses the functionality form the Basic Model and applies it to an array of currents.
 
 This cell uses a 2D array generated from an image, where the axes are the surface (top-down view),
@@ -30,21 +45,3 @@ frequencies outputting a higher value on the z-axis on the 3D plot. This is a re
 encoding of the surface texture. When a finger scans over a texture, the more pressure that is
 experienced by the mechanoreceptors, the faster the fire rate of action potentials, therefore
 encoding the surface texture information to the brain.
-
-### Output
-![alt text](Output_Data/Static_Model_Output.png)
-
-## 3. Scanning Model
-This model again assumes that surface texture height can be interpreted as current, but mimics a
-horizental strip of sensors scanning across the topography surface.
-
-The values of heigh in an entire row (100 indices) is scaled to 100000 indices in a newer array for
-greater resolution, and is used as input into the basic model. This is repeated over the 100 rows in
-the topograhy array. The 100 outputted mechanoreceptor response is displayed in the graphs both as a
-heat map and 3D plot.
-
-### Heatmap Output
-![alt text](Output_Data/Scanning_Model_Heatmap.png)
-
-### 3D Plot Output
-![alt text](Output_Data/Scanning_Model_3D_Plot.png)
